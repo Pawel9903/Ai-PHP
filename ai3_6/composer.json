@@ -1,0 +1,12 @@
+{
+    "name": "pawel/ai3_6",
+    "authors": [
+        {
+            "name": "Paweł Ged",
+            "email": "pawelged9903@gmail.com"
+        }
+    ],
+    "require": {
+        "php-di/php-di": "^6.0"
+    }
+}
