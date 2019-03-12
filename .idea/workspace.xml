@@ -1,31 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b688b02e-95e6-4b6f-b2f7-40dafd776360" name="Default Changelist" comment="" />
+    <list default="true" id="b688b02e-95e6-4b6f-b2f7-40dafd776360" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ai3_6/src/Services/Container.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai3_6/src/Services/VectorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai3_6/src/Traits/ContainerTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ai.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai3_6/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/ai3_6/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai3_6/src/Classes/CommandCreator.php" beforeDir="false" afterPath="$PROJECT_DIR$/ai3_6/src/Factories/CommandFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai3_6/src/Classes/CommandTask1.php" beforeDir="false" afterPath="$PROJECT_DIR$/ai3_6/src/Classes/CommandTask1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai3_6/src/Classes/CommandTask2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ai3_6/src/Classes/CommandTask2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai3_6/src/Classes/VectorTask1.php" beforeDir="false" afterPath="$PROJECT_DIR$/ai3_6/src/Classes/VectorTask1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai3_6/src/Classes/VectorTask2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ai3_6/src/Classes/VectorTask2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai3_6/src/Classes/VectorTask3.php" beforeDir="false" afterPath="$PROJECT_DIR$/ai3_6/src/Classes/VectorTask3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai3_6/src/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/ai3_6/src/console.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/ai3_6/composer.json</pharConfigPath>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ai3_6/src/console.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ai3_6/src/Classes/VectorTask2.php">
+        <entry file="file://$PROJECT_DIR$/ai3_6/src/Factories/CommandFactory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="347">
+              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
               <folding>
-                <element signature="e#6#59#0#PHP" expanded="true" />
+                <element signature="e#86#114#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,6 +46,9 @@
     <findStrings>
       <find>deva</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -55,16 +67,39 @@
         <option value="$PROJECT_DIR$/ai3_6/src/Classes/Interfaces/VectorInterface.php" />
         <option value="$PROJECT_DIR$/ai3_6/src/Classes/Interfaces/CommandInterface.php" />
         <option value="$PROJECT_DIR$/ai3_6/src/Classes/Vector1.php" />
-        <option value="$PROJECT_DIR$/ai3_6/src/Classes/Vector.php" />
         <option value="$PROJECT_DIR$/ai3_6/src/Interfaces/CommandCreatorInterface.php" />
         <option value="$PROJECT_DIR$/ai3_6/src/Classes/CommandCreator.php" />
         <option value="$PROJECT_DIR$/ai3/src/Classes/Command.php" />
-        <option value="$PROJECT_DIR$/ai3_6/src/Classes/VectorTask1.php" />
-        <option value="$PROJECT_DIR$/ai3_6/src/Classes/CommandTask1.php" />
+        <option value="$PROJECT_DIR$/ai3_6/src/container.php" />
+        <option value="$PROJECT_DIR$/ai3_6/composer.json" />
+        <option value="$PROJECT_DIR$/ai3_6/src/config.php" />
+        <option value="$PROJECT_DIR$/ai3_6/src/Classes/Vector.php" />
         <option value="$PROJECT_DIR$/ai3_6/src/console.php" />
+        <option value="$PROJECT_DIR$/ai3_6/src/Services/Container.php" />
+        <option value="$PROJECT_DIR$/ai3_6/src/Classes/VectorTask1.php" />
+        <option value="$PROJECT_DIR$/ai3_6/src/Classes/VectorTask3.php" />
+        <option value="$PROJECT_DIR$/ai3_6/src/Traits/ContrinerTrait.php" />
+        <option value="$PROJECT_DIR$/ai3_6/src/Traits/ContainerTrait.php" />
+        <option value="$PROJECT_DIR$/ai3_6/src/Classes/CommandTask1.php" />
         <option value="$PROJECT_DIR$/ai3_6/src/Classes/VectorTask2.php" />
+        <option value="$PROJECT_DIR$/ai3_6/src/Classes/CommandTask2.php" />
+        <option value="$PROJECT_DIR$/ai3_6/src/Services/VectorService.php" />
+        <option value="$PROJECT_DIR$/ai3_6/src/Factories/CommandFactory.php" />
       </list>
     </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/ai3_6/vendor/php-di/invoker" />
+      <path value="$PROJECT_DIR$/ai3_6/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/ai3_6/vendor/php-di/phpdoc-reader" />
+      <path value="$PROJECT_DIR$/ai3_6/vendor/php-di/php-di" />
+      <path value="$PROJECT_DIR$/ai3_6/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/ai3_6/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/ai3_6/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/ai3_6/vendor/composer" />
+      <path value="$PROJECT_DIR$/ai3_6/vendor/jeremeamia/SuperClosure" />
+    </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-104" />
@@ -72,11 +107,13 @@
     <option name="width" value="1161" />
     <option name="height" value="641" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,11 +139,38 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Classes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ai" type="462c0819:PsiDirectoryNode" />
+              <item name="ai3_6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Factories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ai" type="462c0819:PsiDirectoryNode" />
+              <item name="ai3_6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ai" type="462c0819:PsiDirectoryNode" />
+              <item name="ai3_6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ai" type="462c0819:PsiDirectoryNode" />
+              <item name="ai3_6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Traits" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -117,11 +181,12 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ai3_6/src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ai2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ai3_6/src/Factories" />
+      <recent name="$PROJECT_DIR$/ai3_6/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -147,18 +212,18 @@
       <option name="presentableId" value="Default" />
       <updated>1552205670180</updated>
       <workItem from="1552205671592" duration="5783000" />
-      <workItem from="1552235761851" duration="13599000" />
+      <workItem from="1552235761851" duration="13937000" />
+      <workItem from="1552410497702" duration="11346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19382000" />
+    <option name="totallyTimeSpent" value="31066000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3064645" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2386273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -178,6 +243,27 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3120511" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -236,16 +322,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/Interfaces/VectorInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/Classes/VectorTask3.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ai3_6/src/Interfaces/VectorInterface.php" />
     <entry file="file://$PROJECT_DIR$/ai3/src/Classes/RandomNumbers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -255,15 +332,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/Classes/CommandTask3.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/Classes/CommandTask2.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/composer.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ai3/src/Classes/Command.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -282,10 +350,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/Classes/CommandTask1.php">
+    <entry file="file://$PROJECT_DIR$/ai3_6/src/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        <state relative-caret-position="90">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai3_6/src/container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai3_6/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -296,40 +378,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/Classes/CommandCreator.php">
+    <entry file="file://$PROJECT_DIR$/ai3_6/src/console.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="120">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ai3_6/src/Classes/Vector.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
+        <state relative-caret-position="532">
           <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ai3_6/src/Classes/VectorTask1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1845">
-          <caret line="125" column="1" lean-forward="true" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
+        <state relative-caret-position="75">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/console.php">
+    <entry file="file://$PROJECT_DIR$/ai3_6/src/Classes/VectorTask3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="60">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai3_6/src/Classes/CommandTask1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai3_6/src/Services/Container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="e#31#43#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai3_6/src/Traits/ContainerTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai3_6/src/Services/VectorService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#85#112#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ai3_6/src/Classes/VectorTask2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="195">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
             <element signature="e#6#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai3_6/src/Classes/CommandTask2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai3_6/src/Classes/CommandTask3.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai3_6/src/Factories/CommandFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="e#86#114#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -8,22 +8,18 @@ namespace Ai\Classes;
 class CommandTask1
 {
     /**
-     * @Inject
+     *
      * @var VectorTask1
      */
     private $vector;
 
     /**
      * CommandTask1 constructor.
+     * @param VectorTask1 $vector
      */
-    public function __construct()
+    public function __construct(VectorTask1 $vector)
     {
-        $this->vector = new VectorTask1();
-    }
-
-    public function printTaskName()
-    {
-        // TODO: Implement printTaskName() method.
+        $this->vector = $vector;
     }
 
     public function printMin():void

@@ -5,7 +5,7 @@
 
 namespace Ai\Classes;
 
-final class VectorTask1 extends Vector
+class VectorTask1 extends Vector
 {
 
     /**

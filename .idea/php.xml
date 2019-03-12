@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/ai3_6/vendor/php-di/invoker" />
+      <path value="$PROJECT_DIR$/ai3_6/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/ai3_6/vendor/php-di/phpdoc-reader" />
+      <path value="$PROJECT_DIR$/ai3_6/vendor/php-di/php-di" />
+      <path value="$PROJECT_DIR$/ai3_6/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/ai3_6/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/ai3_6/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/ai3_6/vendor/composer" />
+      <path value="$PROJECT_DIR$/ai3_6/vendor/jeremeamia/SuperClosure" />
+    </include_path>
+  </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
 </project>

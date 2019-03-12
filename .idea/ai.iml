@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/ai3_6/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/ai3_6/vendor/jeremeamia/SuperClosure" />
+      <excludeFolder url="file://$MODULE_DIR$/ai3_6/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/ai3_6/vendor/php-di/invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/ai3_6/vendor/php-di/php-di" />
+      <excludeFolder url="file://$MODULE_DIR$/ai3_6/vendor/php-di/phpdoc-reader" />
+      <excludeFolder url="file://$MODULE_DIR$/ai3_6/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/ai3_6/vendor/symfony/polyfill-php56" />
+      <excludeFolder url="file://$MODULE_DIR$/ai3_6/vendor/symfony/polyfill-util" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
