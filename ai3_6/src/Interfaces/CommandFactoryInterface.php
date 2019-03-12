@@ -5,6 +5,6 @@
 
 namespace Ai\Interfaces;
 
-interface CommandCreatorInterface{
+interface CommandFactoryInterface{
     public function createCommand(int $type);
 }

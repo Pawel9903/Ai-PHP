@@ -8,11 +8,11 @@ namespace Ai\Factories;
 use Ai\Classes\CommandTask1;
 use Ai\Classes\CommandTask2;
 use Ai\Classes\CommandTask3;
-use Ai\Interfaces\CommandCreatorInterface;
+use Ai\Interfaces\CommandFactoryInterface;
 use Ai\Services\Container;
 use Ai\Traits\ContainerTrait;
 
-class CommandFactory implements CommandCreatorInterface
+class CommandFactory implements CommandFactoryInterface
 {
     use ContainerTrait;
 
