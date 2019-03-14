@@ -1,7 +1,13 @@
 <template>
   <div id="app">
-    <Navigation></Navigation>
-    <router-view></router-view>
+      <v-layout row wrap>
+        <v-flex xs3>
+          <Navigation></Navigation>
+        </v-flex>
+        <v-flex xs9>
+          <router-view></router-view>
+        </v-flex>
+      </v-layout>
   </div>
 </template>
 

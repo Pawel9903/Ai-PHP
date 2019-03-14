@@ -38,7 +38,8 @@
       return {
         items: [
           { link: '/', icon: 'dashboard', name: 'Strona głowna' },
-          { link: '/vectors/repeat', icon: 'dashboard', name: 'Zadanie 6' },
+          { link: '/vectors/repeat', icon: 'account_box', name: '1.6 Wykres wektoru' },
+          { link: '/cereals', icon: 'gavel', name: '1.7 Płatki' },
         ],
         right: null
       }

@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b688b02e-95e6-4b6f-b2f7-40dafd776360" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/src/Service/VectorActionsService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/Utils/Vector.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Charts.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Navigation.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/state/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/state/modules/vector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Handler/CerealsHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Handler/DeleteHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/Repository/CerealsRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Cereals.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/state/modules/cereal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.env" beforeDir="false" afterPath="$PROJECT_DIR$/api/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Navigation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/state/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/state/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,66 +29,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/src/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#140#161#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/src/components/Charts.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/front/src/components/Navigation.vue">
+        <entry file="file://$PROJECT_DIR$/api/src/Entity/Cereals.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/src/Controller/VectorsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="82" selection-start-line="27" selection-start-column="82" selection-end-line="27" selection-end-column="82" />
+            <state relative-caret-position="176">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding>
-                <element signature="e#34#71#0#PHP" expanded="true" />
+                <element signature="e#30#62#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/src/state/modules/vector.js">
+        <entry file="file://$PROJECT_DIR$/front/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/src/Service/VectorActionsService.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+            <state relative-caret-position="45">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -100,7 +64,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>deva</find>
+      <find>payment</find>
+      <find>for</find>
+      <find>ini</find>
     </findStrings>
+    <replaceStrings>
+      <replace>cereals</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,9 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ai1/src/Classes/DateCount.php" />
-        <option value="$PROJECT_DIR$/ai1/src/console.php" />
-        <option value="$PROJECT_DIR$/ai2/src/Classes/Console.php" />
         <option value="$PROJECT_DIR$/ai2/src/Classes/Command.php" />
         <option value="$PROJECT_DIR$/ai2/src/Classes/Name.php" />
         <option value="$PROJECT_DIR$/ai2/src/console.php" />
@@ -144,16 +111,24 @@
         <option value="$PROJECT_DIR$/api/src/Utils/Vector.php" />
         <option value="$PROJECT_DIR$/front/src/components/Home.vue" />
         <option value="$PROJECT_DIR$/front/src/components/Layout.vue" />
-        <option value="$PROJECT_DIR$/front/src/App.vue" />
         <option value="$PROJECT_DIR$/front/config/dev.env.js" />
-        <option value="$PROJECT_DIR$/front/src/router/index.js" />
         <option value="$PROJECT_DIR$/front/src/main.js" />
-        <option value="$PROJECT_DIR$/front/src/state/index.js" />
         <option value="$PROJECT_DIR$/front/src/state/modules/vector.js" />
         <option value="$PROJECT_DIR$/api/src/Service/VectorActionsService.php" />
         <option value="$PROJECT_DIR$/api/src/Controller/VectorsController.php" />
         <option value="$PROJECT_DIR$/front/src/components/Charts.vue" />
+        <option value="$PROJECT_DIR$/api/.env" />
+        <option value="$PROJECT_DIR$/front/src/router/index.js" />
         <option value="$PROJECT_DIR$/front/src/components/Navigation.vue" />
+        <option value="$PROJECT_DIR$/api/src/Repository/CerealsRepository.php" />
+        <option value="$PROJECT_DIR$/front/src/state/index.js" />
+        <option value="$PROJECT_DIR$/front/src/state/modules/cereal.js" />
+        <option value="$PROJECT_DIR$/api/src/Handler/DeleteHandler.php" />
+        <option value="$PROJECT_DIR$/api/src/Controller/CerealsController.php" />
+        <option value="$PROJECT_DIR$/api/src/Handler/CerealsHandler.php" />
+        <option value="$PROJECT_DIR$/front/src/components/Cereals.vue" />
+        <option value="$PROJECT_DIR$/front/src/App.vue" />
+        <option value="$PROJECT_DIR$/api/src/Entity/Cereals.php" />
       </list>
     </option>
   </component>
@@ -182,7 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,11 +167,6 @@
             <path>
               <item name="ai" type="b2602c69:ProjectViewProjectNode" />
               <item name="ai" type="462c0819:PsiDirectoryNode" />
-              <item name="ai3_6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ai" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -211,59 +180,13 @@
               <item name="ai" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ai" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ai" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ai" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ai" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ai" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ai" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="state" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ai" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="state" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,14 +201,15 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/front/src/state/modules" />
+      <recent name="$PROJECT_DIR$/ai2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/front/src" />
       <recent name="$PROJECT_DIR$/api/src" />
       <recent name="$PROJECT_DIR$/ai3_6/src/Factories" />
       <recent name="$PROJECT_DIR$/ai3_6/src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ai2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -313,21 +237,21 @@
       <workItem from="1552205671592" duration="5783000" />
       <workItem from="1552235761851" duration="13937000" />
       <workItem from="1552410497702" duration="11509000" />
-      <workItem from="1552494899386" duration="19075000" />
+      <workItem from="1552494899386" duration="19345000" />
+      <workItem from="1552583226383" duration="6819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50304000" />
+    <option name="totallyTimeSpent" value="57393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24261771" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24660814" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -340,6 +264,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -372,7 +297,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ai2/src/Classes/DateCount.php" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_9.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -448,49 +372,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ai3_6/src/config.php" />
     <entry file="file://$PROJECT_DIR$/ai3_6/src/container.php" />
-    <entry file="file://$PROJECT_DIR$/ai3_6/composer.json">
+    <entry file="file://$PROJECT_DIR$/ai3_5/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/autoloader.php">
+    <entry file="file://$PROJECT_DIR$/ai3_5/src/autoloader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/console.php">
+    <entry file="file://$PROJECT_DIR$/ai3_5/src/console.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/Classes/VectorTask1.php">
+    <entry file="file://$PROJECT_DIR$/ai3_5/src/Classes/VectorTask1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/Classes/VectorTask3.php">
+    <entry file="file://$PROJECT_DIR$/ai3_5/src/Classes/VectorTask3.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/Classes/CommandTask1.php">
+    <entry file="file://$PROJECT_DIR$/ai3_5/src/Classes/CommandTask1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/Services/Container.php">
+    <entry file="file://$PROJECT_DIR$/ai3_5/src/Services/Container.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
@@ -500,14 +424,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/Traits/ContainerTrait.php">
+    <entry file="file://$PROJECT_DIR$/ai3_5/src/Traits/ContainerTrait.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/Services/VectorService.php">
+    <entry file="file://$PROJECT_DIR$/ai3_5/src/Services/VectorService.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
@@ -517,7 +441,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/Classes/VectorTask2.php">
+    <entry file="file://$PROJECT_DIR$/ai3_5/src/Classes/VectorTask2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
@@ -527,24 +451,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/Classes/CommandTask2.php">
+    <entry file="file://$PROJECT_DIR$/ai3_5/src/Classes/CommandTask2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/Classes/CommandTask3.php">
+    <entry file="file://$PROJECT_DIR$/ai3_5/src/Classes/CommandTask3.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/Interfaces/CommandFactoryInterface.php">
+    <entry file="file://$PROJECT_DIR$/ai3_5/src/Interfaces/CommandFactoryInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/Factories/CommandFactory.php">
+    <entry file="file://$PROJECT_DIR$/ai3_5/src/Factories/CommandFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
@@ -554,22 +478,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/Utils/Vector.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai3_6/src/Classes/Vector.php">
+    <entry file="file://$PROJECT_DIR$/api/src/Utils/Vector.html" />
+    <entry file="file://$PROJECT_DIR$/ai3_5/src/Classes/Vector.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" selection-start-line="10" selection-end-line="45" selection-end-column="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/front/node_modules/vue-router/types/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -585,36 +500,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/config/test.env.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/front/package.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#140#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/config/dev.env.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -633,27 +523,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/state/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/src/Service/VectorActionsService.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/Controller/VectorsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="82" selection-start-line="27" selection-start-column="82" selection-end-line="27" selection-end-column="82" />
-          <folding>
-            <element signature="e#34#71#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -667,17 +540,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/Controller/VectorsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="82" selection-start-line="27" selection-start-column="82" selection-end-line="27" selection-end-column="82" />
+          <folding>
+            <element signature="e#34#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/Repository/CerealsRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#88#111#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/state/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/front/src/components/Charts.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="337">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/Handler/DeleteHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/Controller/CerealsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/Handler/CerealsHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/components/Cereals.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="88" column="49" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/state/modules/cereal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/src/components/Navigation.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="427">
+          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/Entity/Cereals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#30#62#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
