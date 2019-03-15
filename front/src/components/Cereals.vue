@@ -9,9 +9,9 @@
       ></v-divider>
       <v-spacer></v-spacer>
       <v-dialog v-model="dialog" max-width="500px">
-        <template v-slot:activator="{ on }">
-          <v-btn color="primary" dark class="mb-2" v-on="on">New Item</v-btn>
-        </template>
+        <!--<template v-slot:activator="{ on }">-->
+          <!--<v-btn color="primary" dark class="mb-2" v-on="on">New Item</v-btn>-->
+        <!--</template>-->
         <v-card>
           <v-card-title>
             <span class="headline">{{ formTitle }}</span>
@@ -55,6 +55,7 @@
     >
       <template v-slot:items="props">
         <td>{{ props.item.cerealName }}</td>
+        <td class="text-xs-right">{{ props.item.id }}</td>
         <td class="text-xs-right">{{ props.item.manufacturer }}</td>
         <td class="text-xs-right">{{ props.item.type }}</td>
         <td class="text-xs-right">{{ props.item.calories }}</td>
@@ -70,16 +71,16 @@
         <td class="text-xs-right">{{ props.item.serving }}</td>
         <td class="text-xs-right">{{ props.item.cups }}</td>
         <td class="justify-center layout px-0">
+          <!--<v-icon-->
+            <!--small-->
+            <!--class="mr-2"-->
+            <!--@click="editItem(props.item)"-->
+          <!--&gt;-->
+            <!--edit-->
+          <!--</v-icon>-->
           <v-icon
             small
-            class="mr-2"
-            @click="editItem(props.item)"
-          >
-            edit
-          </v-icon>
-          <v-icon
-            small
-            @click="deleteItem(props.item)"
+            @click="deleteItem(props.item.id)"
           >
             delete
           </v-icon>
@@ -99,6 +100,7 @@
       dialog: false,
       headers: [
         {text: 'Nazwa', align: 'left', sortable: false, value: 'name'},
+        {text: 'id', align: 'left', sortable: false, value: 'id'},
         { text: 'Producent', value: 'calories' },
         { text: 'Typ', value: 'type' },
         { text: 'Kalorie', value: 'calories' },
@@ -116,20 +118,8 @@
       ],
       desserts: [],
       editedIndex: -1,
-      editedItem: {
-        // name: '',
-        // calories: 0,
-        // fat: 0,
-        // carbs: 0,
-        // protein: 0
-      },
-      defaultItem: {
-        // name: '',
-        // calories: 0,
-        // fat: 0,
-        // carbs: 0,
-        // protein: 0
-      },
+      editedItem: {},
+      defaultItem: {},
       items:[]
     }),
 
@@ -161,9 +151,12 @@
         this.dialog = true
       },
 
-      deleteItem (item) {
-        const index = this.desserts.indexOf(item)
-        confirm('Are you sure you want to delete this item?') && this.desserts.splice(index, 1)
+      deleteItem (id) {
+        if(confirm('Czy napewno chcesz usunąć ten element?')) {
+          this.$store.dispatch('cereal/DeleteCereal',id).then(() => {
+            this.items = this.$store.getters['cereal/GetCereal'];
+          })
+        }
       },
 
       close () {

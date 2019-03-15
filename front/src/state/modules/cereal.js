@@ -20,6 +20,9 @@ export const cereal = {
     Cereals : async (context) => {
       let { data } = await Axios.get(Env.ROOT_API+'cereals');
       context.commit('SetCereal',data);
+    },
+    DeleteCereal : (context, payload) => {
+      Axios.delete(Env.ROOT_API+'cereals', payload);
     }
   }
 };

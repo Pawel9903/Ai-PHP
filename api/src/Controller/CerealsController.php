@@ -13,55 +13,47 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class CerealsController extends AbstractController
 {
+
+    /**
+     * @var CerealsRepository
+     */
     private $repository;
-    public function __construct(CerealsRepository $repository)
+
+    /**
+     * @var CerealsHandler
+     */
+    private $handler;
+
+    /**
+     * CerealsController constructor.
+     * @param CerealsRepository $repository
+     * @param CerealsHandler $handler
+     */
+    public function __construct(CerealsRepository $repository, CerealsHandler $handler)
     {
+        $this->handler = $handler;
         $this->repository = $repository;
-    }
-    /**
-     * @Route("/cereals", name="cereals", methods={"GET"})
-     */
-    public function cereals()
-    {
-        return new JsonResponse($this->repository->findAll(),200);    }
-    /**
-     * @Route("/cereals/{id}", name="cereal" , methods={"GET"})
-     * @param Request $request
-     * @return mixed
-     */
-    public function cereal(Request $request)
-    {
-        return new JsonResponse($this->repository->getById($request->get('id')),200);
     }
 
     /**
+     * @Route("/cereals", name="cereals", methods={"GET"})
+     * @param Request $request
+     * @return JsonResponse
+     */
+    public function cereals(Request $request)
+    {
+        return new JsonResponse($this->handler->handle($request)->cereals(),200);
+    }
+
+
+    /**
      * @Route("/cereals", name="delete_cereals", methods={"DELETE"})
-     * @param DeleteHandler $handler
      * @param Request $request
      * @return mixed
      */
-    public function deleteCereals(DeleteHandler $handler, Request $request)
+    public function deleteCereal(Request $request)
     {
-        return new JsonResponse($handler->handle(Cereals::class, $request->get('id')), 200);
+        return new JsonResponse($this->handler->handle($request)->deleteCereal(), 200);
     }
-    /**
-     * @Route("/cereals", name="add_cereals", methods={"POST"})
-     * @param cerealsHandler $handler
-     * @param Request $request
-     * @return mixed
-     */
-    public function storeCereals(CerealsHandler $handler, Request $request)
-    {
-//        return new JsonResponse($this->repository->store($handler->handle($request)), 200);
-    }
-    /**
-     * @Route("/cereals", name="update_cereals", methods={"PUT"})
-     * @param cerealsHandler $handler
-     * @param Request $request
-     * @return mixed
-     */
-    public function updateCereals(CerealsHandler $handler, Request $request)
-    {
-//        return new JsonResponse($this->repository->store($handler->handle($request)), 200);
-    }
+
 }
